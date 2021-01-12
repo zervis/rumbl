@@ -25,3 +25,4 @@ defmodule RumblWeb.UserSocket do
 
   def id(socket), do: "users_socket:#{socket.assigns.user_id}"
 end
+
